@@ -8,25 +8,69 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-                <a class="navbar-brand" href="#">League Stats</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="myStats.html">My Stats</a>
-                    <a class="nav-link" href="characters.html">Character Stats</a>
-                    <a class="nav-link" href="region.html">Region Stats</a>
-                  </div>
+    <!-- Navbar linking to all other pages -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info" style="margin-bottom: 0px;">
+      <a class="navbar-brand" href="index.html">
+        <img src="Lol_.png" width="70"  class="d-inline-block align-top b" alt="" loading="lazy">
+        Legal Stats
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav w-100">
+              <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="myStats.html">My Stats</a>
+              <a class="nav-link" href="characters.html">Character Stats</a>
+              <a class="nav-link" href="region.html">Region Stats</a>
+          </div>
+      </div>
+  </nav>
+    <br>
+    <!-- This is the search bar where you search the region you are looking for -->
+    <div class="container">
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Region" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+    <!-- The hr is a divider where it divides the search bar from the content -->
+    <hr class="featurette-divider">
+    <!-- This is a card where it will contain all the infomation of the top players in the region-->
+    <div class="container">
+        <div class="card-deck">
+            <div class="card">
+                <div class="container-sm">
+                    <img class="img-fluid" src="Banana.png" class="card-img-top" alt="Players">
                 </div>
-              </nav>
-              
-
-
+                <div class="card-body">
+                <h5 class="card-title">Character</h5>
+                <p class="card-text"> Stats and list of the top played characters in the world.</p>
+                <a href="moreData.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Stats</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <hr class="featurette-divider">
+    <!-- This the footer where it links back to the top so you don't have to scroll back to the top -->
+    <footer class="container text-center">
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
