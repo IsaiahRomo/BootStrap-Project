@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Legal Stats</title>
+    <link rel="stylesheet" href="cover.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
-<body>
+<body class="Chart">
     <!-- Navbar linking to all other pages -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info" style="margin-bottom: 0px;">
+    <nav id="Bars" class="navbar navbar-expand-lg navbar-dark" style="margin-bottom: 0px;">
         <a class="navbar-brand" href="#">
-            <img src="Lol_.png" width="70"  class="d-inline-block align-top" alt="" loading="lazy">
-            Legal Stats
+            <img src="logo.png" width="70"  class="d-inline-block align-top" alt="" loading="lazy">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
     <div class="container">
         <form class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Region" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-success my-2 my-sm-0 bg-dark text-light" type="submit">Search</button>
         </form>
     </div>
     <!-- The hr is a divider where it divides the search bar from the content -->
@@ -39,7 +39,7 @@
     <!-- This is a card where it will contain all the infomation of the top players in the region-->
     <div class="container">
         <div class="card-deck">
-            <div class="card">
+            <div id="Box" class="card">
                 <div class="container-sm">
                     <img class="img-fluid" src="Banana.png" class="card-img-top" alt="Players">
                 </div>
@@ -58,7 +58,7 @@
     <!-- This the footer where it links back to the top so you don't have to scroll back to the top -->
     <footer class="container text-center">
         <p>
-            <a href="#">Back to top</a>
+            <a href="#" style="color: black;">Back to top</a>
         </p>
     </footer>
 </body>
