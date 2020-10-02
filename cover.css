@@ -11,10 +11,12 @@ body {
     background-color: #205c5f;
     padding: 0%;
   }
+  /*changed navs Color*/
   nav#Bars{
     background-color: rgb(85, 55, 167);
    
   }
+  /* Added Color TO our Stats Pages.*/
   #Jimbo{
      color: rgb(216, 159, 25);
      text-shadow: 0px 0px 1.5px black;
@@ -23,6 +25,7 @@ body {
     background-color: rgb(5, 80, 150); 
     color: white;
   }
+  /*changed Background color*/
   body.Chart{
     background: linear-gradient(to left, #44a08d, #093637); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 0%;
