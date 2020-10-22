@@ -5,29 +5,31 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #5a5a5a;
+    color: #4b4b4b;
   }
   body.League{
-    background-color: #205c5f;
+    background-color: #266e72;
     padding: 0%;
   }
   /*changed navs Color*/
   nav#Bars{
-    background-color: rgb(85, 55, 167);
-   
+  background-color: rgb(0, 74, 170);
   }
   /* Added Color TO our Stats Pages.*/
   #Jimbo{
-     color: rgb(216, 159, 25);
-     text-shadow: 0px 0px 1.5px black;
+     color: rgb(184, 129, 0);
+     text-shadow: 0px 0px 1.8px black;
+     background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
   }
+  
   #Box{
-    background-color: rgb(5, 80, 150); 
+    background: linear-gradient(to top, #dbd9d7, #ffffff);
     color: white;
   }
   /*changed Background color*/
   body.Chart{
-    background: linear-gradient(to left, #44a08d, #093637); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+    background: linear-gradient(to bottom, #5ac3ae, #1d6164); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 0%;
   }
   
